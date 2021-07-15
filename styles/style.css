@@ -1,0 +1,40 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* common styles */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    background-color: rgb(5, 5, 139);   
+    
+}
+.playing-football{
+    display: flex;
+    overflow: hidden;
+}
+.football{
+    color: white;
+    padding-left: 180px;
+    margin-top: 200px;
+    font-size: 30px;       
+}
+.banner img{
+    width: 500px;
+    margin-left: 400px;
+    margin-right: 50px;
+    margin-top: 100px;   
+}
+.playing-football:hover .banner{
+    transform: scale(1.1);
+    transition: transform 2s ease-in;
+}
+.link-box{
+    text-decoration: none;
+    background-image: linear-gradient(rgb(255, 20, 110), rgb(255, 0, 76));
+    padding: 10px;
+    margin-left: 180px;   
+    color: white; 
+    font-weight: 500;
+    border-radius: 5px;
+}
