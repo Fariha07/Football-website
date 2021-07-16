@@ -78,30 +78,50 @@ body{
 }
 hr{
     margin-top: 100px;
-    width:350px;
-    color: gainsboro;
-    
-
+    width:500px;
+    border: 1px solid gainsboro;
+}
+.extra{
+    font-size: 20px;
+   font-weight: 300;
+    padding-left: 450px;
 }
      /* ------------------------
               footers style
        ------------------------*/
 
-      
+ .footer-container{
+     
+     margin-bottom: 100px;
+     padding-left: 20px;
+ } 
+     
 .footer{
     margin-top: 100px;
+    
 }
+
+    
+
 .footer-logo img{
     margin-top: 50px;
+    
        width: 250px;
-       padding-left: 500px;
+       padding-left: 510px;
 }
-.footer-icon{
+.footer-icon{   
+    padding-left: 585px;
+    font-size: 30px;
+    
+    
+}   
+
+.footer-copyright{
     padding-left: 550px;
     
 }
-.footer-copyright{
-    padding-left: 550px;
+@media only screen and(max-width:688px) {
+    
 }
     
 
